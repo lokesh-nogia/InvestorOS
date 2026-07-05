@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:investoros.db
+
+logging:
+  level:
+    root: DEBUG
+
+investoros:
+  environment: Development

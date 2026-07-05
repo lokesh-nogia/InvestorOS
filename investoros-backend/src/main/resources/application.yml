@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: InvestorOS
+
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    root: INFO
+    com.investoros: DEBUG
+
+investoros:
+  version: 0.0.1-alpha
+  environment: Development
